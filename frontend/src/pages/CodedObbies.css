@@ -1,0 +1,79 @@
+.coded-obbies-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.coded-obbies-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.sidebar-container {
+  width: 300px;
+  background-color: #f4f4f4;
+  border-right: 2px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.path-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.main-content-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.unit-details {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.unit-name {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.lessons-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.lessons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-item {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.no-lessons {
+  color: red;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.select-unit {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}

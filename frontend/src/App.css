@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.app-container{
+   background-color: lightblue;
+}
+
+.title{
+  background-color: lightblue;
+}
+
+.path{
+  border: 1px solid black;
+}
+.path-container{
+  border: 1 px solid red;
+}
+
+.lessons-list ul {
+  list-style-type: none;  /* Removes bullet points */
+  padding-left: 0;        /* Optional: Removes any indentation */
+}
+
+.lessons-list li {
+  margin-bottom: 10px;    /* Optional: Adds space between lessons */
+}
